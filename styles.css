@@ -1,0 +1,225 @@
+*{
+
+
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    display: flex;
+    padding: 20px;
+    align-items:center ;
+
+    background-color:rgb(8, 8, 8);
+    color: aqua;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+nav{
+    flex:1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 20px;
+    
+    font-family: monospace;
+
+
+}
+a{
+
+    text-decoration: none;
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row col-2 p2{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: blueviolet;
+
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(192, 199, 199);
+    font-size: large;
+
+}
+
+
+.col-2 img{
+   padding: 50px 0;
+   max-width: 100%;
+    
+}
+
+.row{
+
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(209, 207, 211);
+}
+.slider {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+  
+}
+.images {
+    display: flex;
+    width: 100%;
+}
+.images img {
+    height: 400px;
+    width: 100%;
+    transition: all 0.15s ease;
+}
+.images input {
+    display: none;
+}
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+.dots label:hover {background: #fff;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+
+
+
+
+.contactform{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 144px;
+    padding-bottom: 10px;
+    
+    
+    }
+    
+    .contactform h1{
+    font-family: monospace;
+    padding: none;
+    
+    
+        color: rgb(139, 23, 3);
+        
+    }
+    .contactform div{
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    #emailHelp{
+        font-size: 8px;
+        color: midnightblue;
+        margin: 0 5px;
+    }
+    
+    .contactform div input{
+        width: 23vw;
+        border-radius: 7px;
+        font-size: 15px;
+        padding: 3px;
+        margin: 6px 0 0 0 ;
+    }
+    
+    #form-check{
+     flex-direction: row;
+     
+    }
+    
+    #form-check input{
+        width: 24px;
+        margin: 3px 0;
+    
+    }
+
+.btn{
+        font-size: 30px;
+        height: 80px;
+        border-radius: 22px;
+        margin-top: 34px;
+        margin: 3px;
+        cursor: pointer;
+    
+        padding: 0px 14px;
+        color: white;
+        background-color: skyblue;
+        font-weight: bold;
+    
+        
+    }
+    
+.btn-sm{
+        font-size: 28px;
+    }
+
+    
+.btn:hover{
+        background-color: white;
+        cursor: pointer;
+        color: blue;
+    }
